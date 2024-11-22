@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="main-title">Title</h1>
+    <p class="intro">Paragraph</p>
+    <p class="intro">Paragraph</p>
+    <button id="click-button" class="action-button">Button</button>
+    <div class="container">
+      <p>Paragraph</p>
+    </div>
+    <script>
+      let heading = document.querySelector("#main-title");
+      console.log(heading);
+      let paragraph = document.querySelector(".intro");
+      console.log(paragraph);
+      let paragraphs = document.querySelectorAll(".intro");
+      console.log(paragraphs);
+
+      let button = document.querySelector("button");
+      console.log(button);
+      let p = document.querySelectorAll("p");
+      console.log(p);
+    </script>
+  </body>
+</html>
